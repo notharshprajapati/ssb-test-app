@@ -1,13 +1,10 @@
-import React from "react";
+// src/App.tsx
+import { AppRoutes } from "./routes";
+import "./globals.css"; // Ensure shadcn globals are imported
+import "./index.css"; // Ensure tailwind base is imported
 
-const App = () => {
-  return (
-    <div>
-      <h1 className="text-3xl font-bold text-amber-100 underline">
-        Hello world!
-      </h1>
-    </div>
-  );
-};
+function App() {
+  return <AppRoutes />;
+}
 
 export default App;
