@@ -3,7 +3,7 @@ import React, { useState, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { useImageManager } from "@/hooks/useImageManager";
-import { ImageStat, SortCriteria } from "@/types";
+import type { ImageStat, SortCriteria } from "@/types";
 import { formatTimestamp } from "@/lib/time";
 import {
   Table,

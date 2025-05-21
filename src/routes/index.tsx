@@ -3,7 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { HomePage } from "@/pages/HomePage";
 import { TestPage } from "@/pages/TestPage";
 import { StatsPage } from "@/pages/StatsPage";
-import { NotFoundPage } from "@/pages/NotFoundPage"; // Create a simple 404 page
+import NotFoundPage from "@/pages/NotFoundPage"; // Create a simple 404 page
 
 export const router = createBrowserRouter([
   {

@@ -1,6 +1,6 @@
 // src/components/shared/PageIndicator.tsx
 import React from "react";
-import { TestType } from "@/types";
+import type { TestType } from "@/types";
 
 interface PageIndicatorProps {
   testType: TestType;

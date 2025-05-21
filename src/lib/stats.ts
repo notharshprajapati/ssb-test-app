@@ -1,5 +1,5 @@
 // src/lib/stats.ts
-import { ImageFile, ImageStat } from "@/types";
+import type { ImageFile, ImageStat } from "@/types";
 import { LOCAL_STORAGE_STATS_KEY } from "./constants";
 
 export function loadStatsFromLocalStorage(): ImageStat[] {

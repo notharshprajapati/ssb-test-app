@@ -1,6 +1,6 @@
 // src/hooks/useEmergencyExit.ts
 import { useState, useEffect, useCallback } from "react";
-import { EmergencyExitRecord } from "@/types";
+import type { EmergencyExitRecord } from "@/types";
 import {
   LOCAL_STORAGE_EXIT_KEY,
   EMERGENCY_EXIT_LIMIT,

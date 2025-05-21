@@ -1,5 +1,5 @@
 // src/lib/images.ts
-import { ImageFile, ImageStat } from "@/types";
+import type { ImageFile, ImageStat } from "@/types";
 
 // Vite-specific way to import all images from a directory
 const imageModules = import.meta.glob(

@@ -1,6 +1,6 @@
 // src/hooks/useImageManager.ts
 import { useState, useEffect, useCallback } from "react";
-import { ImageFile, ImageStat } from "@/types";
+import type { ImageFile, ImageStat } from "@/types";
 import { discoverImageFiles, selectNextImage } from "@/lib/images";
 import {
   loadStatsFromLocalStorage,

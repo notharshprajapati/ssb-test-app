@@ -1,7 +1,7 @@
 // src/pages/TestPage.tsx
 import React, { useState, useEffect, useCallback } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import { TestType, ImageStat } from "@/types";
+import type { TestType, ImageStat } from "@/types";
 import { useImageManager } from "@/hooks/useImageManager";
 import { useTimer } from "@/hooks/useTimer";
 import { useSound } from "@/hooks/useSound";

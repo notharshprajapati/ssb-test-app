@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 import { useImageManager } from "@/hooks/useImageManager";
-import { TestType } from "@/types";
+import type { TestType } from "@/types";
 import {
   Card,
   CardContent,
